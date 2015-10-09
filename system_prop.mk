@@ -4,6 +4,7 @@
 
 # Audio
 PRODUCT_PROPERTY_OVERRIDES += \
+    ro.sf.lcd_density=400 \
     persist.audio.dualmic.config=endfire \
     persist.audio.fluence.audiorec=true \
     persist.audio.fluence.voicecall=true \
